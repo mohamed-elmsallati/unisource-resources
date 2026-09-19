@@ -23,7 +23,7 @@ Supported categories:
 - `game-dev` — Game Development
 - `programming` — Programming
 - `data` — Data & Databases
-- `study-skills` — Study Skills
+- `study-guide` — Study Guide
 
 ## Frontmatter
 
