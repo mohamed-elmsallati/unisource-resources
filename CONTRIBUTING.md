@@ -7,13 +7,15 @@ UniSource site automatically once merged.
 
 1. Find the folder for the topic — see the list of `category` values in the
    [README](README.md). Create the folder if it doesn't exist yet.
-2. Create a Markdown file named with a short, kebab-case slug, e.g.
-   `web-dev/learn-http.md`. The slug becomes the page URL:
-   `/resources/web-dev/learn-http`.
-3. Fill in the required frontmatter (`title`, `description`, `category`,
-   `level`, `createdAt`) — copy the example in the README.
-4. Write the content. Use tables, lists, and code snippets where they help.
-5. Open a pull request against `main`.
+2. Copy [`EXAMPLE.md`](EXAMPLE.md) as your starting point — it shows every
+   frontmatter field and Markdown pattern in one file.
+3. Rename the copy to a short, kebab-case slug, e.g. `web-dev/learn-http.md`.
+   The slug becomes the page URL: `/resources/web-dev/learn-http`.
+4. Fill in the frontmatter (`title`, `description`, `category`, `level`,
+   `createdAt`) and remove the `official` tag unless UniSource has asked you
+   to mark it as an official resource.
+5. Write the content. Use tables, lists, and code snippets where they help.
+6. Open a pull request against `main`.
 
 ## Checklist
 
