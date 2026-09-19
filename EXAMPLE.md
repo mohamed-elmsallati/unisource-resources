@@ -1,10 +1,10 @@
 ---
-# ─────────────────────────────────────────────────────────────────────
+# ---------------------------------------------------------------
 # UniSource resource template
 # Copy this file into a category folder, e.g. web-dev/my-resource.md,
 # rename it, and replace every value below. The page URL becomes
 # /resources/<category>/<filename>.
-# ─────────────────────────────────────────────────────────────────────
+# ---------------------------------------------------------------
 
 title: "Learn React hooks with one project"
 description: "A short one- or two-sentence summary. It shows on cards, in search results, and in page meta."
@@ -16,7 +16,7 @@ level: "beginner"
 
 tags: ["official", "react", "hooks"]
 # "official" marks a UniSource-maintained resource. Contributors can add
-# topic tags like the ones here — they make the resource searchable.
+# topic tags like the ones here. They make the resource searchable.
 
 order: 100
 # Lower values sort first on the resources index. 100 is a safe default.

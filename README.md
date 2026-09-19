@@ -5,7 +5,7 @@ Markdown learning resources for [UniSource](https://unisource.vercel.app).
 This repo is mounted as a git submodule at `src/content/resources/` in the
 UniSource site. Every resource is an Astro content entry rendered as a static
 page at `/resources/<category>/<slug>`. Adding a resource here makes it appear
-on the site — no code changes required.
+on the site. No code changes required.
 
 ## Structure
 
@@ -18,12 +18,12 @@ Each resource is a Markdown file grouped by topic:
 
 Supported categories:
 
-- `web-dev` — Web Development
-- `mobile-dev` — Mobile Development
-- `game-dev` — Game Development
-- `programming` — Programming
-- `data` — Data & Databases
-- `study-guide` — Study Guide
+- `web-dev`: Web Development
+- `mobile-dev`: Mobile Development
+- `game-dev`: Game Development
+- `programming`: Programming
+- `data`: Data & Databases
+- `study-guide`: Study Guide
 
 ## Frontmatter
 

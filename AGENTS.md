@@ -1,4 +1,4 @@
-# AGENTS.md — unisource-resources
+# AGENTS.md for unisource-resources
 
 Guidance for AI coding agents working in this repo. Follow these rules unless a
 task explicitly overrides them.
@@ -19,7 +19,7 @@ When asked to add or edit a resource:
 2. Use valid frontmatter (see schema below). Copy `EXAMPLE.md` when a full
    example is helpful.
 3. Write the body as plain Markdown: headings, lists, tables, code blocks.
-4. Do not add `.md` files at the repo root for new resources — they are not
+4. Do not add `.md` files at the repo root for new resources. They are not
    published. Root-level files are reserved for docs (`README.md`,
    `CONTRIBUTING.md`, `EXAMPLE.md`, `AGENTS.md`).
 
@@ -48,7 +48,11 @@ When asked to add or edit a resource:
 - Do not commit non-resource files (scratch notes, images served elsewhere)
   into a category folder.
 - Description must summarize the resource and appear in search/cards.
-- Avoid em dashes (`—`); use plain punctuation (commas, colons).
+- Never use em dashes (the long dash character). Use plain punctuation
+  (commas, colons, periods) instead. Do not add them to any file.
+- The site is static and cannot host downloads. Files (PDFs, zips, 10+ file
+  sets) are hosted externally (Google Drive or Mega) and linked via `links`
+  with an https URL. Prefer sharing one ZIP for file packs.
 - Keep links to stable, well-known https sources.
 
 ## Verification
