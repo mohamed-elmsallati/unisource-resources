@@ -26,6 +26,42 @@ UniSource site automatically once merged.
 - [ ] Description is one or two sentences — it's used in cards and search
 - [ ] Links use https and point to stable, well-known sources
 
+## Fixing mistakes in your pull request
+
+A pull request is **not final until it's merged**. Every push to the same branch
+updates your PR automatically — no need to open a new one. Common fixes:
+
+- I accidentally left the `official` tag → delete `"official"` from `tags`.
+- My PR failed the build / looks broken → fix the frontmatter, commit, push.
+- I want to change the content → edit the file, commit, push.
+
+**If you're using the GitHub website:**
+
+1. Open your pull request, then click the **Files changed** tab.
+2. Click the pencil icon on a file to edit it directly.
+3. Make your fix, scroll down, pick **Commit changes**, and choose
+   **Commit directly to the `<your-branch>` branch**.
+
+Your PR updates itself — wait for the checks to finish.
+
+**If you're using Git on your computer:**
+
+```sh
+git checkout your-branch     # switch to your PR branch
+# edit the file in your editor
+git add .
+git commit -m "Fix: remove official tag, fix category"
+git push                     # this updates your pull request
+```
+
+Not sure you want to keep a change? Make a **new commit** to fix it — avoid
+`git reset` or rewriting history unless you already know what you're doing.
+Maintainers can always tidy up the commit history when they merge.
+
+Still stuck? Leave a comment in the PR (e.g. "I don't know how to remove the
+official tag") — maintaining PRs is a normal part of contribution, and someone
+will help.
+
 ## Editing in the UniSource site
 
 If you also have the site checked out, the resources folder is a submodule
